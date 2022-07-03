@@ -1,0 +1,48 @@
+*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.parent2{
+			position: absolute;
+			top: 30%;
+			padding:0px;
+			margin:0px;
+			width:100%;
+			display:flex;
+			flex-wrap: wrap;
+}
+.heading{
+	width: 100%;
+    color: white; 
+	font-size: 40px;
+	text-align: center;
+}
+.left{
+		width:450px;	
+		margin-top: 3%;
+		margin-left:15%; 
+	    
+}
+.right {
+		width:450px;
+		margin-top: 3%;	
+		margin-left:5%;
+	
+}
+h3{
+	background-color: white;
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+	width: 54%;
+	margin-left: 14%;
+}
+		tr{
+			color: white;
+		}
+		table{
+			margin-left:12%; 
+		}
+		.tbl{
+			padding-right:16%; 
+		}

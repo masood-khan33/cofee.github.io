@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Copy shop</title>
+	<style >
+		.main{
+			position: absolute;
+			padding:0px;
+			margin:0px;
+			width:100%;
+			display:flex;
+			/* //flex-wrap: wrap; */
+}
+		.box{
+			position: relative;
+			width: 253px;
+			/* //border: 1px solid; */
+			margin: 0 auto;
+		}
+		.box .box-pic{
+			position: relative;
+			transition: all 0.5s;
+			transform-origin: 95% 50% 0;
+			z-index: 1;
+		}
+		.box .box-pic:after{
+			content: "";
+			position: absolute;
+			top: 50%;
+			left: 95%;
+			width: 8px;
+			height: 8px;
+			background: black;
+			border-radius: 50%;
+
+		}
+		.box .box-pic img{
+			border-radius: 50%;
+			border: 1px solid;
+		}
+		.box:hover .box-pic{
+			transform: rotate(-140deg);
+			
+		}
+		.box .box-contant{
+			text-align: center;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: orange;
+			border-radius: 50%;
+			padding: 60px 25px;
+			box-sizing: border-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+	<div class="box">
+		<div class="box-pic" >
+			<img src="img/c2.jpg" height="250" width="250">
+		</div>
+		<div class="box-contant">
+			<h3>Web Developer</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+	<div class="box">
+		<div class="box-pic" >
+			<img src="img/p2.jpg" height="250" width="250">
+		</div>
+		<div class="box-contant">
+			<h3>Web Developer</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+	<div class="box">
+		<div class="box-pic" >
+			<img src="img/p1.jpg" height="250" width="250">
+		</div>
+		<div class="box-contant">
+			<h3>Web Developer</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+	<div class="box">
+		<div class="box-pic" >
+			<img src="img/p3.jpg" height="250" width="250">
+		</div>
+		<div class="box-contant">
+			<h3>Web Developer</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
